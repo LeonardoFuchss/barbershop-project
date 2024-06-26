@@ -15,5 +15,6 @@ Este projeto esta em desenvolvimento, segue algumas funcionalidades que pretendo
 - Autenticação do usuário com Spring Security
 - Confirmação de agendamento pelo usuário
 - Lidar com exceções na aplicação Java para tratamento de erros.
-- 
+- Mapeamento com banco de dados mySQL
+
 Fique a vontade para contribuir com o projeto!
