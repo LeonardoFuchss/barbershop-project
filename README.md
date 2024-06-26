@@ -16,5 +16,6 @@ Este projeto esta em desenvolvimento, segue algumas funcionalidades que pretendo
 - Confirmação de agendamento pelo usuário
 - Lidar com exceções na aplicação Java para tratamento de erros.
 - Mapeamento com banco de dados mySQL
+- Subir a aplicação em um contâiner no Docker
 
 Fique a vontade para contribuir com o projeto!
