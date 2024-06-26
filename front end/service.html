@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>BARBERSHOP</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="">Sobre</a>
+            <a href="">Serviços</a>
+            <a href="">Contato</a>
+        </nav>
+    </header>
+    <div id="formAgend">
+       <h1> TIPO DE SERVIÇO</h1>
+       <h2>Selecione o serviço:</h2>
+    <form id="useForm4">  
+    <select id="serviceType" name="serviceType">
+        <option value="CorteDeCabelo">Corte de cabelo R$ 20.0</option>
+        <option value="Barba">Barba R$ 10.0</option>
+        <option value="Sobrancelha">Sobrancelha R$ 10.0</option>
+        <option value="CorteDeCabelo+Barba">Corte de cabelo + barba R$ 30.0</option>
+        <option value="CorteDeCabelo+Sobrancelha">Corte de cabelo + sobrancelha R$ 30.0</option>
+        <option value="Navalhado">Navalhado R$ 40.0</option>
+        <option value="Navalhado+Sobrancelha">Navalhado + sobrancelha R$ 50.0</option>
+    </select>
+       <button type="submit" id="button5">SELECIONAR</button>
+    </form>
+    <div id="table">
+        <h1>Valores dos serviços: </h1>
+        <ul>
+            <li>Corte de cabelo: R$ 20.0</li>
+            <li>Barba: R$ 10.0</li>
+            <li>Sobrancelha: R$ 10.0</li>
+            <li>Combo 1: (Corte de cabelo + Barba) R$ 30.0</li>
+            <li>Combo 2: (Corte de cabelo + Sobrancelha) R$ 30.0</li>
+            <li>Navalhado: R$ 40.0</li>
+            <li>Combo 3: (Navalhado + Sobrancelha) R$ 50.0</li>
+        </ul>
+    </div>
+    <div id="customAlert" class="modal">
+        <div class="modal-content">
+         <div id="alertMessage"></div>
+        </div>
+    </div>
+    
+    <div id="formStyle">    
+    </div>
+    <script src="scripts.js"></script>
+</body>
+
+</html>

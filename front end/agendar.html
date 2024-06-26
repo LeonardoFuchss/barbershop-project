@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>BARBERSHOP</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="">Sobre</a>
+            <a href="">Serviços</a>
+            <a href="">Contato</a>
+        </nav>
+    </header>
+    <div id="formAgend">
+       <h1>Agendar Horário</h1>
+       <h2>Selecione uma data:</h2>
+       <form id="useFormTime">
+       <input type="date" id="date">
+
+       <h2>Selecione um horário:</h2>
+       <select id="time" name="time">
+        <option value="09:00">09:00</option>
+        <option value="10:00">10:00</option>
+        <option value="11:00">11:00</option>
+        <option value="12:00">12:00</option>
+        <option value="13:00">13:00</option>
+        <option value="14:00">14:00</option>
+        <option value="15:00">15:00</option>
+        <option value="16:00">16:00</option>
+        <option value="17:00">17:00</option>
+        <option value="18:00">18:00</option>
+    </select>
+    <button type="submit" id="button5">AGENDAR</button>
+    </form>
+    </div>
+    <div id="customAlert" class="modal">
+        <div class="modal-content">
+         <div id="alertMessage"></div>
+        </div>
+    <script src="scripts.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,530 @@
+
+
+body {
+    background-image: linear-gradient(to right, black, rgb(9, 24, 85));
+    margin: 0px;
+}
+header {
+    background-color: rgb(9, 24, 85);
+    box-shadow: 5px 3px 10px 2px rgba(0, 31, 167, 0.318);
+    width: 100%;
+    height: 100px;
+}
+header > h1 {
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    font-size: 30px;
+    position: absolute;
+    margin-left: 80px;
+    margin-top: 25px;
+}
+nav {
+    position: absolute;
+    right: 0;
+    margin-right: 150px;
+    margin-top: 34px;
+}
+#h2 {
+    position: absolute;
+    right: 0;
+    margin-right: 140px;
+    margin-top: 54px;
+    color: aliceblue;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+nav > a {
+    padding-right: 40px;
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+nav > a:hover {
+    color: aqua;
+    transition: 0.10s;
+}
+#img {
+    height: 800px;
+    width: 1000px;
+    object-fit: cover;
+    position: absolute;
+    margin-top: 2px;
+    border-radius: 5px;
+    margin-left: 40px;
+}
+#img2 {
+    height: 800px;
+    width: 1000px;
+    object-fit: cover;
+    position: absolute;
+    margin-top: 2px;
+    border-radius: 5px;
+    margin-left: 400px;
+}
+#img > h1 {
+    text-align: center;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+}
+.servico {
+    height: 300px;
+    display: flex;
+    width: 300px;
+    background-color: rgba(4, 49, 140, 0.77);
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 2px;
+    border: 3px solid rgb(0, 37, 85);
+    margin-right: 20px;
+    margin-left: 20px;
+    border-radius: 70px;
+    box-shadow: 2px 2px 2px rgba(0, 60, 255, 0.389);
+    animation: float 4s ease-in-out infinite;
+    
+}
+.servico > img {
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+    position: relative;
+    border-radius: 70px;
+    animation: float 3s ease-in-out infinite;
+}
+@keyframes float {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+#divForm {
+    margin: auto;
+    border: 6px solid rgb(20, 91, 163);
+    height: 500px;
+    width: 400px;
+    margin-top: -30px;
+    margin-left: -40px;
+    position: absolute;
+
+    background-color: rgb(3, 19, 83);
+    z-index: 2;
+}
+#divForm > h1 {
+    height: 4px;
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 47px;
+    
+}
+#divForm > h2 {
+    margin-top: -190px;
+    width: 500px;
+    margin-right: -35px;
+}
+#button1 {
+    background-image: linear-gradient(to right, black, rgb(3, 26, 119));
+    border: 2px groove white;
+    margin-top: 30px;
+    padding: 15px;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+#button2 {
+    background-image: linear-gradient(to right, black, rgb(3, 26, 119));
+    border: 2px groove white;
+    margin-top: 30px;
+    padding: 15px;
+    padding-right: 30px;
+    padding-left: 27px;
+    border-radius: 10px;
+    font-weight: bold;
+    margin-left: 70px;
+    color: white;
+    cursor: pointer;
+}
+#button3 {
+    background-image: linear-gradient(to right, black, rgb(3, 26, 119));
+    border: 2px groove white;
+    margin-top: 30px;
+    padding: 15px;
+    padding-right: 40px;
+    padding-left: 37px;
+    border-radius: 10px;
+    font-weight: bold;
+    margin-left: 70px;
+    color: white;
+    cursor: pointer;
+}
+#button5 {
+    background-image: linear-gradient(to right, black, rgb(3, 26, 119));
+    border: 2px groove white;
+    margin-top: 30px;
+    padding: 15px;
+    padding-right: 40px;
+    padding-left: 37px;
+    border-radius: 10px;
+    font-weight: bold;
+    margin-left: 170px;
+    color: white;
+    cursor: pointer;
+}
+#button6 {
+    background-image: linear-gradient(to right, black, rgb(3, 26, 119));
+    border: 2px groove white;
+    position: absolute;
+    margin-left: 745px;
+    margin-top: 590px;
+    padding: 15px;
+    padding-right: 50px;
+    padding-left: 47px;
+    border-radius: 10px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    animation: float 3s ease-in-out infinite;
+}
+#useForm {
+    padding: 60px;
+    padding-top: 106px;
+    margin-left: 5px;
+    margin-top: 30px;
+}
+#useForm2 {
+    padding: 60px;
+    padding-top: 40px;
+    margin-left: 5px;
+    margin-top: 30px;
+}
+#useForm2 > p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: wheat;
+    text-align: center;
+    padding-top: 10px;
+}
+#useForm2 > p > a {
+    color: aliceblue;
+}
+#or {
+   position: absolute;
+   margin-top: 375px;
+   margin-left: 185px;
+   color: white;
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: bold;
+}
+#name {
+    padding: 10px;
+    padding-right: 90px;
+    
+    background-color: rgb(3, 26, 119);
+    border: 3px groove white;
+    color: white;
+    border-radius: 5px;
+}
+#email {
+    margin-top: 50px;
+    padding: 10px;
+    padding-right: 90px;
+    background-color: rgb(3, 26, 119);
+    border: 3px groove white;
+    color: white;
+    border-radius: 5px;
+}
+#password {
+    margin-top: 50px;
+    padding: 10px;
+    padding-right: 90px;
+    background-color: rgb(3, 26, 119);
+    border: 3px groove white;
+    color: white;
+    border-radius: 5px;
+}
+#divStyle {
+    margin: auto;
+    border: 6px solid rgb(20, 91, 163);
+    height: 500px;
+    width: 400px;
+    margin-top: 200px;
+    margin-left: 1200px;
+    background-color: rgb(4, 123, 192);
+   
+}
+::placeholder {
+    color: aliceblue;
+}
+#divPage2 {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    margin-top: 70px;
+    background-color: rgb(4, 123, 192);
+}
+#formAgend {
+    margin: auto;
+    margin-top: 100px;
+    width: 500px;
+    height: 600px;
+    background-color: rgb(3, 19, 83);
+    border: 3px solid rgb(20, 91, 163);
+    position: absolute;
+    margin-left: 560px;
+    animation: float 3s ease-in-out infinite;
+}
+#formAgend > h1 {
+    height: 4px;
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 37px;
+    padding-bottom: 40px;
+    
+}
+#formStyle {
+    margin: auto;
+    margin-top: 130px;
+    width: 480px;
+    height: 600px;
+    background-color: rgba(0, 140, 255, 0.737);
+    border: 3px solid rgb(20, 91, 163);;
+}
+input[type="date"] {
+    margin-top: 5px;
+    margin-left: 150px;
+    margin-bottom: 10px;
+    padding: 13px;
+    border: 3px solid rgb(4, 123, 192);
+    background-color: rgb(5, 39, 152);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+#time {
+    margin-top: 5px;
+    margin-left: 150px;
+    margin-bottom: 10px;
+    padding: 13px;
+    padding-right: 106px;
+    border: 3px solid rgb(4, 123, 192);
+    background-color: rgb(5, 39, 152);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+#serviceType {
+    margin-top: 5px;
+    margin-left: 45px;
+    padding: 13px;
+    padding-right: 5px;
+    border: 3px solid rgb(4, 123, 192);
+    background-color: rgb(5, 39, 152);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+h2 {
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+#formAgend > button {
+    position: absolute;
+    margin-top: 100px;
+    padding: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left: -280px;
+    border-radius: 20px;
+    border: 3px solid rgb(0, 140, 255);
+    background-color: rgb(2, 30, 105);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+    
+}
+#useForm4 {
+    margin-top: 50px;
+}
+.modal {
+    display: none;
+    background-image: linear-gradient(to right, rgb(2, 30, 105), rgb(0, 103, 187));
+    width: 500px;
+    height: 90px;
+    top: 10px;
+    right: 35%;
+    z-index: 1000;
+    font-size: 18px;
+    text-align: center;
+    position: fixed;
+    border-radius: 30px;
+    border: 3px groove rgb(0, 102, 255);
+}
+#alertMessage {
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 19px;
+}
+#modal-content {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+    margin: auto;
+}
+#table {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    border: 4px groove rgb(0, 128, 255);
+    width: 450px;
+    border-radius: 30px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+#schedulingList {
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 100px;
+}
+#schedulingList > li {
+    padding-top: 20px;
+}
+#table > h1 {
+  text-align: center;
+}
+#formAgend > button:hover {
+    background-color: rgb(5, 39, 152);
+}
+#formAgend > button:active {
+    animation: click-animation 0.3s forwards;
+    transition: transform 0.2s ease;
+}
+@keyframes click-animation {
+    0% { transform: scale(1); }
+    50% { transform: scale(0.5); }
+    100% { transform: scale(2); }
+}
+
+
+
+@media  (width <= 360px) {
+    header {
+        background-color: rgb(9, 24, 85);
+        box-shadow: 5px 3px 10px 2px rgba(0, 31, 167, 0.318);
+        width: 100%;
+        height: 100px;
+    }
+    header > h1 {
+        font-size: 20px;
+        position: absolute;
+        margin-left: 5px;
+        margin-top: 35px;
+    }
+    nav {
+        position: absolute;
+        right: 0;
+        margin-right: 15px;
+        margin-top: 74px;
+        
+    }
+    #h2 {
+        position: absolute;
+        margin-top: -230px;
+        margin-right: -1px;
+        margin-left: -5px;
+    }
+    nav > a {
+        padding-right: 20px;
+        text-decoration: none;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+    }
+    nav > a:hover {
+        color: aqua;
+        transition: 0.10s;
+    }
+    #img {
+        display: flow-root;
+        margin-left: 10px;
+        margin-top: 700px;
+    }
+    #img2 {
+        position: relative;
+        margin-top: 750px;
+        margin-left: 10px;
+    }
+    #divForm {
+        height: 400px;
+        width: 300px;
+        margin-top:20px;
+        margin-left: 10px;
+        position: absolute;
+    }
+    #divStyle {
+        height: 400px;
+        width: 300px;
+        margin-top: -1370px;
+        margin-left: 15px;
+        position: absolute;
+    }
+    #name {
+        padding: 10px;
+        padding-right: 30px;
+    }
+    #email {
+        margin-top: 20px;
+        padding: 10px;
+        padding-right: 30px;
+    }
+    #password {
+        margin-top: 20px;
+        padding: 10px;
+        padding-right: 30px;
+    }
+    #useForm {
+        margin-left: -9px;
+        margin-top: 30px;
+
+    }
+    #button1 {
+        background-color: rgb(3, 26, 119);
+        border: 2px groove white;
+        margin-top: 20px;
+        padding: 8px;
+        border-radius: 20px;
+        color: white;
+        cursor: pointer;
+    }
+    #button2 {
+        margin-top: 20px;
+        position: absolute;
+        padding: 8px;
+        padding-right: 20px;
+        padding-left: 20px;
+        border-radius: 20px;
+        margin-left: 53px;
+        color: white;
+    }
+}
